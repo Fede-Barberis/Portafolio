@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Container from "./components/Container"
+import Home from "./components/HomeSection"
+import NavBar from "./components/NavBar"
 
 
 function App() {
-  
-
-  return 
-    
-  
+  return (
+    <Container>
+      <NavBar />
+      <Home />
+    </Container>
+  ) 
 }
 
 export default App
