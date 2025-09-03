@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],  // Texto principal
+        sans: ['Trebuchet MS', 'sans-serif'],  // Texto principal
         heading: ['Poppins', 'sans-serif'], // Títulos
       }
     },
