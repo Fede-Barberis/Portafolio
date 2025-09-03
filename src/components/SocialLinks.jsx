@@ -2,12 +2,12 @@ import { IconMailForward, IconBrandLinkedin, IconBrandGithub } from "@tabler/ico
 
 const links = [
     {
-        href: "mailto:fedebarberis@gmail.com",
+        href: "mailto:fedeandresbarberis@gmail.com",
         icon: IconMailForward,
         hoverColor: "hover:text-red-500",
     },
     {
-        href: "https://www.linkedin.com/in/tu-perfil",
+        href: "https://www.linkedin.com/in/fede-barberis-49ba1a30a/",
         icon: IconBrandLinkedin,
         hoverColor: "hover:text-blue-600",
     },
@@ -23,11 +23,11 @@ export default function SocialLinks() {
         <div className="flex gap-4">
         {links.map(({ href, icon: Icon, hoverColor }, i) => (
             <a
-            key={i}
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`text-gray-600 transition-all duration-300 cursor-pointer hover:scale-110 ${hoverColor}`}
+                key={i}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`text-gray-600 transition-all duration-300 cursor-pointer hover:scale-110 ${hoverColor}`}
             >
             <Icon size={24} stroke={2} />
             </a>
