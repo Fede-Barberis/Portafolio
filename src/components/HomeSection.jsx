@@ -4,7 +4,7 @@ import SocialLinks from "./SocialLinks";
 
 const Inicio = () => {
     return (
-        <section id="inicio" className="flex flex-col pt-16">
+        <section id="inicio" className="flex flex-col pt-10 sm:pt-16">
             <div className="flex flex-row gap-5">
                 <img 
                     className="rounded-full shadow w-16 h-16 object-fill "
@@ -36,7 +36,7 @@ const Inicio = () => {
                 <a 
                     href="/Cv-Federico-Barberis.pdf"
                     download
-                    className="rounded-xl border border-gray-300 px-3 py-2 text-gray-700 hover:bg-blue-100 hover:border-blue-700 transition-all duration-300 cursor-pointer"
+                    className="rounded-xl border border-gray-300 px-5 py-3 text-gray-700 hover:bg-blue-100 hover:border-blue-700 transition-all duration-300 cursor-pointer"
                 >
                     Descargar CV
                 </a>

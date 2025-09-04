@@ -1,9 +1,10 @@
+import { IconBriefcase } from '@tabler/icons-react';
 
 export default function NavBar() {
     return (
-        <header className="w-full pt-16">
-            <nav className="max-w-4xl mx-auto py-4 flex justify-between items-center">
-                <ul className="flex gap-6 text-black/60">
+        <header className="flex flex-col sm:flex-row w-full pt-6 sm:pt-16 mx-auto max-w-full py-4 justify-center items-center md:justify-between md:items-start">
+            <nav>
+                <ul className="flex flex-col items-center gap-5 text-black/60 sm:flex-row">
                     <li><a href="#inicio" className="hover:text-blue-500">Inicio</a></li>
                     <li><a href="#experiencia" className="hover:text-blue-500">Experiencia</a></li>
                     <li><a href="#proyectos" className="hover:text-blue-500">Proyectos</a></li>
