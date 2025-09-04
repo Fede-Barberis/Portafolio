@@ -4,7 +4,7 @@ import { IconCode, IconBrandGithub } from '@tabler/icons-react';
 
 const Proyectos = () => {
     return (
-        <section id="proyectos" className="flex flex-col gap-2 my-24">
+        <section id="proyectos" className="scroll-m-20 flex flex-col gap-2 mt-24">
             <div className='space-y-6 '>
                 <header className='flex flex-row gap-2'>
                     <IconCode stroke={2} className='text-gray-600' />

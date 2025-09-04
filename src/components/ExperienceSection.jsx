@@ -2,7 +2,7 @@ import { IconBriefcase } from '@tabler/icons-react';
 
 const Experiencia = () => {
     return (
-        <section id="experiencia" className="flex flex-col mt-24 ">
+        <section id="experiencia" className="scroll-m-20 flex flex-col mt-24">
             <div className='space-y-6 '>
                 <header className='flex fle-row gap-2'>
                     <IconBriefcase stroke={2} className='text-gray-600' />
