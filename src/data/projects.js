@@ -8,7 +8,7 @@ export const projects = [
     title: "Portafolio",
     description: "Mi portafolio personal creado con React y TailwindCSS.",
     image: portafolio,
-    link: "https://mi-portafolio.com",
+    link: "https://portafolio-beta-two-57.vercel.app/",
     repo: "https://github.com/Fede-Barberis/Portafolio",
     lenguaje: ['React', 'Tailwind','Vite']
   },
