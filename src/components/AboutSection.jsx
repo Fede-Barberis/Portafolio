@@ -4,7 +4,7 @@ const sobreMi = () => {
     return (
         <section id="sobreMi" className="scroll-m-20 flex flex-col mt-24 ">
             <div className="space-y-6">
-                <header className="flex flex-row gap-2">
+                <header className="flex gap-2">
                     <IconSparkles stroke={2} className='text-gray-600' />
                     <h2 className='text-xl font-heading font-medium text-gray-800'>Sobre Mi</h2>
                 </header>

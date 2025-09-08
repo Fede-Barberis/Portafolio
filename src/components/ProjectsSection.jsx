@@ -25,7 +25,7 @@ const Proyectos = () => {
                         </div>
                     </section>
                     <div className="flex mt-16 ">
-                        <a href="https://github.com/Fede-Barberis" target="_blank" className="flex mx-auto gap-2 text-black/60 hover:text-black"><IconBrandGithub />Todos mis proyectos</a>
+                        <a href="https://github.com/Fede-Barberis" target="_blank" className="flex mx-auto gap-2 text-black/60 hover:text-black transition-all duration-300"><IconBrandGithub />Todos mis proyectos</a>
                     </div>
                 </main>
             </div>

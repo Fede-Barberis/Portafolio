@@ -1,5 +1,5 @@
-import fotoPerfil from "../assets/foto_perfil.jpg";
-import SocialLinks from "./SocialLinks";
+import fotoPerfil from "../assets/images/perfil.png";
+import { SocialLinks } from "./SocialLinks";
 
 
 const Inicio = () => {
@@ -8,11 +8,11 @@ const Inicio = () => {
             <header className="space-y-6">
                 <div className="flex flex-row gap-5">
                     <img 
-                        className="rounded-full shadow w-16 h-16 object-fill "
+                        className="rounded-full shadow w-28 h-28 object-cover object-top"
                         src={fotoPerfil} 
                         alt="Avatar" 
                     />
-                    <div className="flex flex-col">
+                    <div className="flex flex-col justify-center">
                         <h1 className="text-2xl font-heading font-medium">Federico Barberis</h1>
                         <p className="text-blue-500">Desarrollador Full Stack</p>
                     </div>
@@ -27,7 +27,7 @@ const Inicio = () => {
                     <nav className="inline-flex gap-4">
                         <SocialLinks />
                     </nav>
-                </div> 
+                </div>
             </header> 
             <div className="mt-10">
                 <p className=" text-md text-black/50">
