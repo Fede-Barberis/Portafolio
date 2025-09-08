@@ -4,6 +4,7 @@ import Inicio from "./components/HomeSection"
 import Experiencia from "./components/ExperienceSection"
 import Proyectos from "./components/ProjectsSection"
 import SobreMi from "./components/AboutSection"
+import Contacto from "./components/ContactSection"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Experiencia />
       <Proyectos />
       <SobreMi />
+      <Contacto />
     </Container>
   ) 
 }
