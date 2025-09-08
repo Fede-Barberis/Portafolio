@@ -1,19 +1,24 @@
+import portafolio from '../assets/images/portafolio.png'
+import gestorNegocio from '../assets/images/gestorNegocio.png'
+import webEstatica from '../assets/images/webEstatica.png'
+import proximamente from '../assets/images/proximamente.webp'
+
 export const projects = [
   {
     title: "Portafolio",
     description: "Mi portafolio personal creado con React y TailwindCSS.",
-    image: "/images/Portafolio.png",
+    image: portafolio,
     link: "https://mi-portafolio.com",
     repo: "https://github.com/Fede-Barberis/Portafolio",
-    lenguaje: ['React', 'Tailwind']
+    lenguaje: ['React', 'Tailwind','Vite']
   },
   {
     title: 'Gestor Negocio "500Millas"',
-    description: "Aplicación para gestionar tareas con almacenamiento local.",
-    image: "/images/500Millas.png",
+    description: "App web para gestionar un emprendimiento, optimizando procesos y reduciendo tareas manuales.",
+    image: gestorNegocio,
     link: "https://mi-app-tareas.com",
-    repo: "https://github.com/Fede-Barberis/TodoApp",
-    lenguaje: ['HTML', 'CSS', 'JavaScript', '...']
+    repo: "https://github.com/Fede-Barberis/Proyecto-Final",
+    lenguaje: ['HTML', 'CSS', 'JavaScript', 'Node.js','MySQL']
   },
 ];
 
@@ -21,18 +26,18 @@ export const projects = [
 export const moreProjects = [
   {
     title: "Web Estatica",
-    description: "Trabajo practico facultad para Programacion III,Trabajo practico facultad para Programacion III,Trabajo practico facultad para Programacion III",
-    image: "/images/Portafolio.png",
+    description: "Sitio web multi-página, responsive, con carga de productos vía JSON, validación de formularios y animaciones, Inicio al mundo del desarrollo web.",
+    image: webEstatica,
     link: "https://mi-portafolio.com",
-    repo: "https://github.com/Fede-Barberis/Portafolio",
-    lenguaje: ['HTML', 'CSS']
+    repo: "https://github.com/Fede-Barberis",
+    lenguaje: ['HTML', 'CSS', 'JavaScript']
   },
   {
-    title: 'Gestor Negocio "500Millas"',
-    description: "Aplicación para gestionar tareas con almacenamiento local.",
-    image: "/images/500Millas.png",
+    title: 'Proximamente...',
+    description: "Proyecto en desarrollo",
+    image: proximamente,
     link: "https://mi-app-tareas.com",
-    repo: "https://github.com/Fede-Barberis/TodoApp",
-    lenguaje: ['HTML', 'CSS', 'JavaScript', 'HTML', 'CSS', '...']
+    repo: "https://github.com/Fede-Barberis",
+    lenguaje: ['...']
   },
 ];
