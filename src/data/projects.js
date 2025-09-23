@@ -2,6 +2,7 @@ import portafolio from '../assets/images/portafolio.png'
 import gestorNegocio from '../assets/images/gestorNegocio.png'
 import webEstatica from '../assets/images/webEstatica.png'
 import proximamente from '../assets/images/proximamente.webp'
+import pokedex from '../assets/images/pokedex.png'
 
 export const projects = [
   {
@@ -24,6 +25,14 @@ export const projects = [
 
 
 export const moreProjects = [
+  {
+    title: 'Pokedex',
+    description: "Aplicación web que permite explorar más de 1300 pokémons con búsqueda instantánea, filtros dinámicos y sistema de favoritos persistente.",
+    image: pokedex,
+    link: "https://pokedex-react-pink-pi.vercel.app/",
+    repo: "https://github.com/Fede-Barberis/Pokedex-React",
+    lenguaje: ['React', 'Tailwind','Vite']
+  },
   {
     title: "Web Estatica",
     description: "Sitio web multi-página, responsive, con carga de productos vía JSON, validación de formularios y animaciones, Inicio al mundo del desarrollo web.",
