@@ -17,14 +17,14 @@ const Inicio = () => {
                         <p className="text-blue-500">Desarrollador Full Stack</p>
                     </div>
                 </div>
-                <div className="flex flex-row items-center gap-2">
+                <div className="grid sm:flex sm:flex-row sm:items-center gap-2">
                     <div className="inline-flex items-center justify-center gap-2 rounded-full border border-gray-300 px-3 py-1 ">
                         <span className="relative flex size-2">
                             <span className="absolute h-full w-full animate-pulse rounded-full bg-emerald-500"></span>
                         </span>
                         <span className="text-sm text-gray-700 p-1">Buscando mi primer experiencia IT</span></div>
                     <a href="https://www.linkedin.com/in/fede-barberis-49ba1a30a/"></a>
-                    <nav className="inline-flex gap-4">
+                    <nav className="inline-flex gap-4 justify-center">
                         <SocialLinks />
                     </nav>
                 </div>
