@@ -1,25 +1,25 @@
 import portafolio from '../assets/images/portafolio.png'
-import gestorNegocio from '../assets/images/gestorNegocio.png'
+import gestorNegocio from '../assets/images/gestor-empresa.png'
 import webEstatica from '../assets/images/webEstatica.png'
 import proximamente from '../assets/images/proximamente.webp'
 import pokedex from '../assets/images/pokedex.png'
 
 export const projects = [
   {
-    title: "Portafolio",
-    description: "Mi portafolio personal creado con React y TailwindCSS.",
-    image: portafolio,
-    link: "https://portafolio-beta-two-57.vercel.app/",
-    repo: "https://github.com/Fede-Barberis/Portafolio",
-    lenguaje: ['React', 'Tailwind','Vite']
-  },
-  {
     title: 'Gestor Negocio "500Millas"',
     description: "App web para gestionar un emprendimiento, optimizando procesos y reduciendo tareas manuales.",
     image: gestorNegocio,
-    link: "https://mi-app-tareas.com",
-    repo: "https://github.com/Fede-Barberis/Proyecto-Final",
-    lenguaje: ['HTML', 'CSS', 'JavaScript', 'Node.js','MySQL']
+    link: "https://500-millas-gestor.vercel.app/auth/login",
+    repo: "https://github.com/Fede-Barberis/500Millas-Gestor",
+    lenguaje: ['React', 'TailwindCSS', 'JavaScript', 'Node.js','MySQL', 'Express', 'Sequelize', 'Etc.']
+  },
+  {
+    title: "Portafolio",
+    description: "Mi portafolio personal creado con React y TailwindCSS.",
+    image: portafolio,
+    link: "https://portafolio-federico-barberis.vercel.app/",
+    repo: "https://github.com/Fede-Barberis/Portafolio",
+    lenguaje: ['React', 'Tailwind','Vite']
   },
 ];
 
