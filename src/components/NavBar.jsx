@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-export default function NavBar() {
+function NavBar() {
     return (
         <motion.header
             className='flex flex-col w-full py-5 sm:pt-24 mx-auto max-w-full justify-center items-center md:justify-between md:items-start'
@@ -60,6 +60,8 @@ export default function NavBar() {
         </motion.header>
     );
 }
+
+export default NavBar;
 
 // export default function NavBar() {
 //     return (
