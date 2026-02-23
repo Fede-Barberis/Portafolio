@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import fotoPerfil from "../assets/images/fotoPerfil2.PNG";
+import fotoPerfil from "../assets/images/fotoPerfil2.webp";
 import { SocialLinks } from "./SocialLinks";
 import { IconDownload, IconSparkles } from "@tabler/icons-react";
 import TypeWriterMotion from "../components/TypeWriteMotion";
