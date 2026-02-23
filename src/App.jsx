@@ -7,6 +7,7 @@ import SobreMi from "./components/AboutSection"
 import Contacto from "./components/ContactSection"
 import Habilidades from "./components/SkillsSection"
 import Footer from "./components/Footer"
+import Certificados from "./components/CertificadosSection"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Habilidades />
         <Experiencia />
         <Proyectos />
+        <Certificados />
         <SobreMi />
         <Contacto />
       </div>
